@@ -1,0 +1,3 @@
+C:\Repos\post-ui\obj\Debug\post-ui.njsproj.CoreCompileInputs.cache
+C:\Repos\post-ui\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Repos\post-ui\obj\Debug\post-ui.njsproj.AssemblyReference.cache

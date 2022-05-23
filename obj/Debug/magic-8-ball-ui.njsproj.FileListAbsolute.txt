@@ -1,0 +1,3 @@
+C:\Repos\magic-8-ball-ui\obj\Debug\magic-8-ball-ui.njsproj.AssemblyReference.cache
+C:\Repos\magic-8-ball-ui\obj\Debug\magic-8-ball-ui.njsproj.CoreCompileInputs.cache
+C:\Repos\magic-8-ball-ui\bin\Microsoft.NodejsTools.WebRole.dll
