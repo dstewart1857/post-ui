@@ -1,6 +1,7 @@
 # UI for the SetAssessment Back End
 
-A Wordle clone made with React
+A Wordle clone made with React.
+
 This is a modified version of the Magic 8 Ball UI done by Mike Snow
 
 ---
