@@ -66,8 +66,8 @@ button:hover {
 }
 
 .ball-black-outer {
-  background: radial-gradient(farthest-corner at 40px 40px, #666, black);
-  width: 800px;
+  /*background: radial-gradient(farthest-corner at 40px 40px, #666, black);*/
+  width: 100%;
   height: 220px;
   /*border-radius: 100%;*/
   display: flex;
@@ -80,8 +80,8 @@ button:hover {
 .ball-white-inner {
   background: radial-gradient(white, #ececec);
   /*border-radius: 100%; */
-  width: 700px;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   position: absolute;
   top: 10px;
   border: 2px solid black;
@@ -89,7 +89,7 @@ button:hover {
   justify-content: left;
   align-items: normal;
   text-align: left;
-  padding: 15px;
+  /*padding: 15px;*/
   transition: all 1s;
 }
 
@@ -98,12 +98,12 @@ button:hover {
 }
 
 .ball-shadow {
-  width: 480px;
+  /*width: 480px;
   height: 50px;
   border-radius: 50%;
   background-color: darken(#f1c40f, 20%);
   opacity: 0.4;
-  animation: scale 2s ease-in infinite;
+  animation: scale 2s ease-in infinite;*/
 }
 
 @keyframes bounce {

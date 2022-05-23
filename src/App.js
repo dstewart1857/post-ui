@@ -2,20 +2,20 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  const [userInput, setUserInput] = React.useState('<Enter Name Here>');
+  const [userInput, setUserInput] = React.useState('<Enter Tests to Add Here (JSON Format)>');
   const [answer, setAnswer] = React.useState('Hi!');
   const [getAnswer, setGetAnswer] = React.useState(false);
   const [addTests, setAddTests] = React.useState(false);
 
   React.useEffect(() => {
-    document.title = 'Make a Request';
+    document.title = 'Manage a Test Collection';
   });
 
   const ask = () => {
-    if (userInput) {
+    //if (userInput) {
       //setUserInput('');
       setGetAnswer(true);
-    }
+    //}
   };
 
     const add = () => {
@@ -59,7 +59,7 @@ function App() {
 
         if (addTests) {
             submitTests();
-            //setUserInput('');
+            setUserInput('');
             setAddTests(false);
         };
 
